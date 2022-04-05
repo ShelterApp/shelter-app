@@ -35,8 +35,10 @@ See `.env.development` for development defaults.
 | `GOOGLE_MAPS_APIKEY` | Set key display map                       |
 
 Replace google-services.json, GoogleService-Info.plist from firebase your project.
-Replace Facebook app ID in andoid/src/main/res/values/strings.xml
-Replace Google API key in andoid/src/main/res/AndroidManifest.xml line 36
+
+Replace Facebook app ID in android/src/main/res/values/strings.xml
+
+Replace Google API key in android/src/main/res/AndroidManifest.xml in line 36
 
 ### Prerequisites
 
