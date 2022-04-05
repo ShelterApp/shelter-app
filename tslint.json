@@ -1,0 +1,24 @@
+{
+  "extends": ["tslint:latest", "tslint-config-airbnb", "tslint-react-hooks"],
+  "linterOptions": {
+    "exclude": [
+      "jest.*.js",
+      "index.js",
+      "api/*.ts"
+    ]
+  },
+  "rules": {
+    "indent": [false, "spaces", 2],
+    "import-name": false,
+    "align": [true, "statements", "members", "parameters"],
+    "variable-name": [true, "allow-pascal-case"],
+    "object-literal-sort-keys": [false],
+    "no-submodule-imports": [false, "styled-jsx", "@app"],
+    "no-implicit-dependencies": [false],
+    "no-this-assignment": [true, { "allow-destructuring": true }],
+    "ter-arrow-parens": [false],
+    "ordered-imports": [false],
+    "no-shadowed-variable": true,
+    "react-hooks-nesting": "error"
+  }
+}
